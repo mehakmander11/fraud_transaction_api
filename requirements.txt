@@ -1,5 +1,9 @@
 ﻿fastapi
 uvicorn
 pandas
-joblib
+numpy
 scikit-learn
+joblib
+sqlalchemy
+python-dotenv
+pydantic
