@@ -46,8 +46,8 @@ ENV_FILE = BASE_DIR / ".env"
 # Load .env explicitly
 if ENV_FILE.exists():
     load_dotenv(dotenv_path=ENV_FILE)
-else:
-    raise FileNotFoundError(f".env file not found at {ENV_FILE}")
+# else:
+#     raise FileNotFoundError(f".env file not found at {ENV_FILE}")
 
 # Fetch database URL
 SQLALCHEMY_DATABASE_URL = os.getenv("SQLALCHEMY_DATABASE_URL")
